@@ -1,0 +1,24 @@
+@media screen and (max-width:800px){
+
+    .card{
+        margin: 5%;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .card .image-mobile{
+        display: flex;
+        height: 230px;
+        flex:100%;
+        background-size: cover;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-image: url(../images/image-product-mobile.jpg);
+    }
+
+    .card .image-desktop{
+        display: none;
+    }
+}
