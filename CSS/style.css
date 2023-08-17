@@ -27,7 +27,7 @@ body{
 .card .image-desktop{
     flex:42%;
     height: 500px;
-    background-image: url(images/image-product-desktop.jpg);
+   background-color: red;
     background-size: cover;
     text-align: right;
     border-top-left-radius: 10px;
